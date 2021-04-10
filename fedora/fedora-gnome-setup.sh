@@ -8,7 +8,9 @@ fi;
 
 # Install GNOME utilities
 dnf install -y \
+  file-roller \
   gnome-tweaks \
+  gnome-extensions-app \
   gnome-shell-extension-appindicator \
   gnome-shell-extension-gamemode \
   gnome-shell-extension-gsconnect;

@@ -42,6 +42,10 @@ dnf install -y \
   winetricks \
   youtube-dl;
 
+# Install themes
+dnf install -y \
+  papirus-icon-theme
+
 # Purge PackageKit
 dnf remove -y PackageKit;
 
